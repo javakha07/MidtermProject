@@ -3,19 +3,15 @@ from game_logic import start_game
 from data_handler import view_logs, save_logs
 from api_handler import fetch_leaderboard, add_score
 
-# Initialize Pygame
 pygame.init()
 
-# Constants
 SCREEN_WIDTH, SCREEN_HEIGHT = 800, 600
 FPS = 60
 WHITE = (255, 255, 255)
 
-# Screen setup
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption("SPACE INVADERS")
 
-# Main Menu
 def main_menu():
     running = True
     clock = pygame.time.Clock()
