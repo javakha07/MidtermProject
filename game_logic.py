@@ -12,7 +12,7 @@ RED = (255, 0, 0)
 BLUE = (0, 0, 255)
 
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-pygame.display.set_caption("Space Quest")
+pygame.display.set_caption("SPACE INVADERS")
 
 background = pygame.image.load("assets/images/background.webp").convert()
 background = pygame.transform.scale(background, (800, 600))
